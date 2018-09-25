@@ -1,0 +1,32 @@
+{
+  "name": "node-koa-api",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./src/server/index.js",
+    "test": "./node_modules/mocha/bin/_mocha ./test/**/*.test.js"
+  },
+  "keywords": [],
+  "author": "Patrick Jones",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "4.1.1",
+    "chai-http": "^4.2.0",
+    "mocha": "^5.2.0",
+    "sinon": "^6.3.4"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "knex": "^0.13.0",
+    "koa": "^2.3.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-logger": "^3.2.0",
+    "koa-passport": "^4.0.1",
+    "koa-router": "^7.2.1",
+    "koa-session": "^5.9.0",
+    "node-require-function": "^1.2.0",
+    "passport-local": "^1.0.0",
+    "pg": "^7.1.2",
+    "koa-redis": "latest"
+  }
+}
